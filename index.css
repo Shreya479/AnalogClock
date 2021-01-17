@@ -1,0 +1,49 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.world{
+    width: 1152px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+nav{
+    background: rgba(99, 43, 99, 0.719);
+    color: rgb(255, 237, 214);
+    padding: 1rem 0;
+    text-align: justify;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:rgb(245, 218, 229) ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    text-align: center;
+}
+.hours, .minutes, .seconds, .amorpm{
+    width: 4em;
+    height: 5em;
+    background-color:rgb(245,218, 229);
+    padding: 1em;
+    margin: 2em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px ;
+    box-shadow: 3px 3px 9px  rgb(243, 209, 209), -3px -3px 9px  rgb(235, 177, 177);   
+}
+#hours, #minutes, #seconds, #amorpm{
+    font-size: 2em;
+    color: black;
+}
+.box > h1{
+    font-size: 1em;
+}
